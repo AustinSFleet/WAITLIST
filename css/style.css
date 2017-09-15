@@ -4,8 +4,13 @@ body {
     background-size: 100%;
   }
 
+.jumbotron {
+	margin-top: 20px;
+}
+
 .jumbotron, .panel {
 	background-color: rosybrown;
 	background-size: 100%;
 	color: seashell;
+	opacity: 0.9;
 }
