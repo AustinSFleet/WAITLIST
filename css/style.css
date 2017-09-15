@@ -4,7 +4,7 @@ body {
     background-size: 100%;
   }
 
-.jumbotron {
+.jumbotron, .panel {
 	background-color: rosybrown;
 	background-size: 100%;
 	color: seashell;
