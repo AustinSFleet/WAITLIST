@@ -24,6 +24,18 @@ var tables = [
     phone: "777-777-7777",
     party: 2,
     tip: 18
+    },
+    {
+    name: "Party Marty",
+    phone: "206-251-0080",
+    party: 6,
+    tip: 25
+    },
+    {
+    name: "Smarty Marty",
+    phone: "206-251-0080",
+    party: 6,
+    tip: 25
     }
   ];
   
@@ -53,13 +65,14 @@ app.get("/reservation", function(req, res){
 app.post("/api/new", function(req, res) {
     var newTable = req.body;
 
-    if (tables.length <= 5) {
+    if (tables.length < 5) {
         tables.push(req.body);
     } else {
-        alert("TABLES FILLED YOU GOTTA WAIT BOO");
+        // alert("TABLES FILLED YOU GOTTA WAIT BOO");
         waitlist.push(req.body);
     }
-    console.log(tables.name);
+    // console.log(tables.name);
+    // console.log(waitlist.)
   });
 
 app.get("/api/tables", function(req, res){
