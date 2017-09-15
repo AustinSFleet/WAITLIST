@@ -1,0 +1,11 @@
+body { 
+	background-image: url("https://static.pexels.com/photos/541216/pexels-photo-541216.jpeg");
+    background-color: #cccccc;
+    background-size: 100%;
+  }
+
+.jumbotron, .panel {
+	background-color: rosybrown;
+	background-size: 100%;
+	color: seashell;
+}
