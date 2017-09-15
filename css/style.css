@@ -1,16 +1,10 @@
 body { 
+	background-image: url("https://static.pexels.com/photos/541216/pexels-photo-541216.jpeg");
     background-color: #cccccc;
     background-size: 100%;
   }
 
-#index {
-	background-image: url("https://static.pexels.com/photos/541216/pexels-photo-541216.jpeg");
-}
-
-#tables {
+.jumbotron {
 	background-image: url("https://static.pexels.com/photos/17738/pexels-photo.jpg");
-}
-
-#reservation {
-
+	background-size: 100%;
 }
