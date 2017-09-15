@@ -5,6 +5,7 @@ body {
   }
 
 .jumbotron {
-	background-image: url("https://static.pexels.com/photos/17738/pexels-photo.jpg");
+	background-color: rosybrown;
 	background-size: 100%;
+	color: seashell;
 }
