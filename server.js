@@ -62,10 +62,10 @@ app.post("/api/new", function(req, res) {
     console.log(tables.name);
   });
 
-// app.get("/api/tables", function(req, res){
-//     res.json(tables);
-// });
+app.get("/api/tables", function(req, res){
+    res.json(tables);
+});
 
-// app.get("/api/waitlist", function(req, res){
-//     res.json(waitlist);
-// });
+app.get("/api/waitlist", function(req, res){
+    res.json(waitlist);
+});
